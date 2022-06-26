@@ -69,7 +69,7 @@ function App() {
     const { contract, web3 } = web3Api
     await contract.addFunds({
       from: account,
-      data: "0x7ded6747681190e6d31e999b527b423db07a3cbe2026d23f6af2e28b1803a602",
+      data: "0x64d04b5a604eb2b71143758c739a11df8daf686588e04d97526b519c62c18eb0",
       value: web3.utils.toWei("1", "ether")
     })
 
