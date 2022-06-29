@@ -125,7 +125,7 @@ function App() {
           </div>
           { !canConnectToContract &&
             <i className="is-block">
-              Connect to Ganache Test Network
+              Connect to DEFIHQ Test Network!
             </i>
           }
           <button
